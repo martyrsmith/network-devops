@@ -1,0 +1,12 @@
+Nexus9000v# sh run int eth1/35
+
+!Command: show running-config interface Ethernet1/35
+!Running configuration last done at: Mon Apr 22 01:41:35 2019
+!Time: Mon Apr 22 01:43:00 2019
+
+version 7.0(3)I7(6) Bios:version
+
+interface Ethernet1/35
+  description Server 1
+  switchport trunk native vlan 2
+  switchport trunk allowed vlan 2-3
